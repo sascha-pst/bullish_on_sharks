@@ -7,7 +7,7 @@ How have shark attack patterns shifted across geography, activity, and time, and
 
 ## Datasets
 
-- global_shark_attacks.csv (Source: Kaggle)
+- global_shark_attacks.csv
 
 ### Fields
 
