@@ -1,13 +1,14 @@
 # Shark Attacks: A Global Exploratory Analysis
 
-An exploratory analysis of shark attack incidents recorded worldwide, examining how encounters vary across geography, activity, and time. This project moves past the tabloid framing of shark attacks to ask where and how risk actually concentrates — and where the data itself falls short.
+An exploratory analysis of shark attack incidents recorded worldwide, examining how encounters vary across geography, activity, and time. 
 
 ## Research Question
+
 How have shark attack patterns shifted across geography, activity, and time, and what factors are most associated with fatal outcomes?
 
 ## Datasets
 
-- global_shark_attacks.csv
+- `global_shark_attacks.csv` — sourced from the Global Shark Attack File (GSAF).
 
 ### Fields
 
@@ -25,6 +26,17 @@ How have shark attack patterns shifted across geography, activity, and time, and
 
 ## Methodology
 
+### 1. Cleaning & normalization (Python)
+### 2. Exploratory analysis
+### 3. Fatality association
+### 4. Visualization (Python → HTML)
+
+## Limitations
+
+- **Reporting bias is the dominant confound.** Incidents in English-speaking, media-rich coastal regions are overrepresented; incidents in regions with less reporting infrastructure are systematically undercounted. Country-level comparisons should be read with this in mind.
+- **Species identification is unreliable.** Many records identify species from eyewitness accounts under duress. Fine-grained species analysis is indicative rather than definitive.
+- **Missingness is non-random.** Age, sex, and time-of-day are missing more often for older and non-Western records, which biases demographic conditional statistics. Missingness is quantified next to each result rather than imputed away.
+- **Denominators are absent.** Raw incident counts cannot answer "how risky is surfing" without participation data, which GSAF does not provide. Activity-level risk claims are avoided accordingly.
 
 ## Attribution
 
